@@ -36,7 +36,7 @@ class Logo extends Component {
           {/* <circle cx="152" cy="24" r="2" fill={this.getColor()} /> */}
         </svg>
         <span style={{ marginLeft: "-1rem" }} className="black-80 f6 fw8">
-          Aposentar.me
+          Klaudioz TEST APP
         </span>
       </div>
     );

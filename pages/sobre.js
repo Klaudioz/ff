@@ -40,7 +40,7 @@ class Index extends Component {
                 fontFamily: "Nunito, system-ui, sans-serif",
               }}
             >
-              Sobre
+              About
             </h1>
             <div className="flex flex-column pt4">
               <p className="measure lh-copy normal mt0">

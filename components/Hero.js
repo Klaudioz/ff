@@ -16,18 +16,11 @@ const Hero = props => (
         <div className="mw7-ns ph4-ns center flex items-center pt4-ns pb5-ns pt4 flex-row-ns flex-column tl-ns tc">
           <div className="w-100 mr3-ns mr0 ph0-ns ph3">
             <h1 className="black-80 f2-ns f3 lh-solid mt0 mb0 mb3-ns b mh0-ns fw6">
-              Descubra quando você será livre financeiramente.
+              Find when you'll be free financially.
             </h1>
             <p className="measure lh-copy f5-ns f6 black-80 mh0-ns mh3 mt0-ns mt3 pt3 measure-ns measure-narrow center mb3-ns mb0">
-              Começar hoje, mesmo com pouco, é o melhor jeito de garantir seu
-              sossego no futuro.
+              Start today is better, even with a small amount.
             </p>
-            <div className="flex center items-center mt4 justify-start-ns justify-center">
-              <FreeBadge></FreeBadge>
-              <span style={{ color: "#6FCF97" }} className="fw9 f7 ml2">
-                Grátis e open-source
-              </span>
-            </div>
           </div>
           <div className="w-100">
             {/* <iframe

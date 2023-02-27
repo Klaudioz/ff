@@ -148,7 +148,7 @@ class InputContainer extends Component {
                   maxLength={2}
                   form="basicquestions"
                   isEnabled
-                  label="Quantos anos você tem?"
+                  label="What is your age?"
                   placeholder="18"
                   id="myCurrentAge"
                   value={this.props.myCurrentAge}
@@ -162,7 +162,7 @@ class InputContainer extends Component {
                 />
                 <InputField
                   isCurrency
-                  label="Quanto dinheiro você tem guardado hoje?"
+                  label="How much have you saved?"
                   placeholder={this.props.myCurrentBalance}
                   value={this.props.myCurrentBalance}
                   id="myCurrentBalance"
@@ -171,7 +171,7 @@ class InputContainer extends Component {
                 />
                 <InputField
                   isCurrency
-                  label="Quanto você consegue guardar todo mês?"
+                  label="How much can you save every month?"
                   id="myCurrentMonthlySavings"
                   placeholder={this.props.myCurrentMonthlySavings}
                   value={this.props.myCurrentMonthlySavings}
@@ -182,7 +182,7 @@ class InputContainer extends Component {
                 />
                 <InputField
                   isCurrency
-                  label="Quanto você espera gastar por mês quando estiver aposentado?"
+                  label="How much will you spend being retired?"
                   id="myRetirementIncome"
                   placeholder={this.props.myRetirementIncome}
                   value={this.props.myRetirementIncome}
@@ -190,13 +190,13 @@ class InputContainer extends Component {
                   hasTips
                   setFocusedInput={this.props.setFocusedInput}
                   helperText={
-                    "Considere que o dinheiro do futuro vale o mesmo que hoje. Nós já incluímos a inflação na conta."
+                    "Inflation included. This is the amount you will need to live comfortably."
                   }
                 />
                 <MultiSelect
                   hasSelectedInvestment={this.props.selectedInvestment}
                   isEnabled={this.canSubmit()}
-                  label="Onde você guarda seu dinheiro hoje?"
+                  label="Where did you save your money?"
                   options={this.props.myInvestments}
                   handleClick={this.props.handleInvestmentSelector}
                   hiddenBorder={true}

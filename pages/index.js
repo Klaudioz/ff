@@ -50,26 +50,26 @@ class Index extends Component {
       ],
       myInvestments: [
         {
-          label: "poupança",
+          label: "savings",
           rate: getRates("poupança"),
           isSelected: false,
           isWallet: false,
         },
         {
           label: "renda fixa",
-          rate: getRates("renda fixa"),
+          rate: getRates("fixed income"),
           isSelected: false,
           isWallet: false,
         },
         {
-          label: "renda variável",
+          label: "variable income",
           rate: getRates("renda variável"),
           isSelected: false,
           isWallet: false,
         },
         {
           // just a placeholder, not a real investment
-          label: "carteira mista",
+          label: "mixed portfolio",
           isSelected: false,
           isWallet: true,
         },

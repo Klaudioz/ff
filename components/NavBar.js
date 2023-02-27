@@ -28,7 +28,7 @@ const NavBar = props => (
           href="#"
           className="fw9 f7 link black-40 hover-black pointer pa3-ns pv3 br-pill chocolate-bold"
         >
-          Sobre
+          About
         </a>
       </Link>
     </div>
