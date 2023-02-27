@@ -89,7 +89,7 @@ function inputMessages(label) {
         lowerValue: 5645.81,
         upperValue: Number.POSITIVE_INFINITY,
         message:
-          'Você pretende se aposentar com um valor acima do teto atual do INSS (R$ 5645,81), portanto, provavelente você precisa se preocupar em complementar a sua aposentadoria.',
+          'Você pretende se aposentar com um valor acima do teto atual do INSS ($ 5645,81), portanto, provavelente você precisa se preocupar em complementar a sua aposentadoria.',
         src: 'Fonte: Banco Central do Brasil. Série cidadania financeira. Novembro 2017.',
       },
     ],

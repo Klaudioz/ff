@@ -2,7 +2,7 @@ import * as fin from './finance';
 import { getObjectByLabel, getSelectedInvestment } from './utils';
 
 export function toCurrency(value) {
-  return (`R$ ${Number(value).toFixed(2)}`);
+  return (`$ ${Number(value).toFixed(2)}`);
 }
 
 function filterIntegerAge(timeHistory, retirementAge) {

@@ -8,7 +8,7 @@ function fromCurrency(currency) {
 
 function toCurrency(number) {
   const currency = number.toLocaleString('pt-BR', { maximumFractionDigits: 0 });
-  return `R$ ${currency}`;
+  return `$ ${currency}`;
 }
 
 function getEventLog(events, lifeEventLabel) {
@@ -96,7 +96,7 @@ class InputTable extends Component {
                   className="w-25 bg-white"
                   style={{ border: getStyle(eventLog) }}
                 >
-                  {eventLog !== undefined ? toCurrency(eventLog.balance) : 'R$ -'}
+                  {eventLog !== undefined ? toCurrency(eventLog.balance) : '$ -'}
                 </td>
                 <td>
                   <button

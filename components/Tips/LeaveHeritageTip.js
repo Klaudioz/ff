@@ -20,7 +20,7 @@ const LeaveHeritageTip = ({
       onChange={(e, floatValue) => handleInput(e, floatValue, studyCase.label)}
       />
       <p>Valor da herança:</p>
-      <p>R$ {studyCaseResults[1].timeHistory[studyCaseResults[1].timeHistory.length - 1].y.toLocaleString('pt-BR', { maximumFractionDigits: 0 })}</p>
+      <p>$ {studyCaseResults[1].timeHistory[studyCaseResults[1].timeHistory.length - 1].y.toLocaleString('pt-BR', { maximumFractionDigits: 0 })}</p>
       <RetirementChart
         primaryData={studyCaseResults}
         secondaryData={retirementResults[0]}

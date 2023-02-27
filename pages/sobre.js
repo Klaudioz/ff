@@ -11,7 +11,7 @@ function getYear() {
 }
 
 function handleClick(donationValue) {
-  logEvent("User", `Clicked Donate: ${donationValue} R$`);
+  logEvent("User", `Clicked Donate: ${donationValue} $`);
 }
 
 class Index extends Component {

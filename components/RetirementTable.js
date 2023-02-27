@@ -31,7 +31,7 @@ class RetirementTable extends Component {
               <tr key={id}>
                 <td>{label}</td>
                 <td>{`${y} anos e ${m} meses`}</td>
-                <td>{`R$ ${results.retirement.balance.toFixed(0)}`}</td>
+                <td>{`$ ${results.retirement.balance.toFixed(0)}`}</td>
               </tr>
             );
           })}

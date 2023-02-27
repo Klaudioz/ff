@@ -5,31 +5,31 @@ import colors from "./Colors";
 const feedbacklist = {
   mySelectedInvestment: {
     poupança:
-      "Cuidado ao escolher a poupança como seu investimento principal. Existem opções com a mesma segurança e rendimentos muito melhores. Apesar disso, 39% dos brasileiros que se preparam para aposentadoria deixam o dinheiro na poupança. :(",
+      "Be careful when choosing savings as your main investment. There are options with the same security and much better yields. Despite this, 39% of Brazilians preparing for retirement leave money in savings. :(",
     "renda fixa":
-      "Boa escolha! Investimentos de renda fixa, como Tesouro Direto, CDBs e outros, são uma boa opção de baixo risco para quem está focado no longo prazo.",
+      "Good choice! Fixed income investments, such as Treasury Direct, CDBs and others, are a good low-risk option for those who are focused on the long term.",
     "renda variável":
-      "Ótimo! Investimentos de renda variável são uma boa opção para quem " +
-      "está focado no longo prazo. Não é todo mundo que se sente " +
-      "confortável em ver o dinheiro oscilando todo dia, portanto, é importante " +
-      "checar o seu perfil de investimento.",
+    "Excellent! Variable income investments are a good option for those " +
+    "is focused on the long term. Not everyone feels " +
+    "comfortable with seeing money fluctuating every day, so it's important " +
+    "check your investment profile.",
     "carteira mista":
-      "Que bom! Você já diversifica seus investimentos! Preencha abaixo de acordo com quanto você investe em cada parte da sua carteira:"
+      "Great! You already diversify your investments! Fill in the form below according to how much you invest in each part of your portfolio:"
   },
   poupança: [
     {
       lowerValue: 1.6,
       upperValue: 3.4,
       message:
-        "Você está otimista. O retorno médio real da poupança do ano 2000 até hoje foi de apenas 1.4% a.a.",
-      src: "Fonte: www.ipeadata.gov.br"
+        "You are optimistic. The average real return on savings from the year 2000 to date has been just 1.4% p.a.",
+      src: "Source: www.ipeadata.gov.br"
     },
     {
       lowerValue: 3.5,
       upperValue: 5.1,
       message:
-        "Desde o ano 2000, a poupança teve essa ordem de rendimento apenas em 2006. Você está certo dessa taxa?",
-      src: "Fonte: www.ipeadata.gov.br"
+        "Since the year 2000, savings have had this rate of return only in 2006. Are you sure about this rate?",
+      src: "Source: www.ipeadata.gov.br"
     }
   ],
   "renda fixa": [
@@ -37,15 +37,15 @@ const feedbacklist = {
       lowerValue: 5,
       upperValue: 6.9,
       message:
-        "Você está otimista. O retorno médio real do tesouro SELIC do ano 2000 até hoje foi de apenas 4.7% a.a.",
-      src: "Fonte: www.ipeadata.gov.br"
+        "You are optimistic. The average real return on the SELIC treasury from the year 2000 until today was only 4.7% p.a.",
+      src: "Source: www.ipeadata.gov.br"
     },
     {
       lowerValue: 7,
       upperValue: 9,
       message:
-        "Desde o ano 2000, a renda fixa teve essa ordem de rendimento apenas em 4 anos. Você está certo dessa taxa?",
-      src: "Fonte: www.ipeadata.gov.br"
+        "Since the year 2000, fixed income has had this level of income only in 4 years. Are you sure about that rate?",
+      src: "Source: www.ipeadata.gov.br"
     }
   ],
   "renda variável": [
@@ -53,7 +53,7 @@ const feedbacklist = {
       lowerValue: 20,
       upperValue: Number.POSITIVE_INFINITY,
       message:
-        "Uau! Me conta a mágica que você está fazendo pra ter esse rendimento!",
+        "Wow! Tell me the magic you're doing to have this income!",
       src: "Fonte: Berkshire Hathaway. Annual Report, 2017."
     }
   ],
@@ -62,15 +62,15 @@ const feedbacklist = {
       lowerValue: 0,
       upperValue: 29,
       message:
-        "Está começando cedo, parabéns! A idade média das pessoas que começam a poupar para a aposentadoria é 28 anos. Esses anos iniciais de investimento fazem muita diferença lá na frente.",
+        "It's starting early, congratulations! The average age of people starting to save for retirement is 28. Those initial years of investment make a lot of difference up front.",
       src:
-        "Fonte: SPC Brasil. O preparo para a aposentadoria no Brasil. Abril 2018."
+        "Source: SPC Brasil. Preparing for retirement in Brazil. April 2018."
     },
     {
       lowerValue: 50,
       upperValue: 60,
       message:
-        "Nunca é tarde para começar! Comece a poupar agora e garanta um futuro mais independente."
+        "It's never late to start! Start saving now and secure a more independent future."
     }
   ],
   myCurrentMonthlySavings: [
@@ -78,23 +78,23 @@ const feedbacklist = {
       lowerValue: 10,
       upperValue: 999,
       message:
-        "Guardar uma quantia todo mês, mesmo que pequena, terá um impacto enorme na sua qualidade de vida lá na frente.",
+        "Saving an amount every month, even a small one, will have a huge impact on your quality of life down the road.",
       reaction: 0
     },
     {
       lowerValue: 1000,
       upperValue: 9999,
       message:
-        "Sabia que apenas 31% dos brasileiros pouparam parte dos seus rendimentos nos últimos 12 meses? Você faz parte desse grupo, parabéns!",
+        "Did you know that only 31% of Brazilians saved part of their income in the last 12 months? You are part of this group, congratulations!",
       src:
-        "Fonte: Banco Central do Brasil. Série cidadania financeira. Novembro 2017.",
+        "Source: Central Bank of Brazil. Financial citizenship series. November 2017.",
       reaction: 0
     },
     {
       lowerValue: 10000,
       upperValue: Number.POSITIVE_INFINITY,
       message:
-        "Uau! Com contribuições mensais desse tamanho, você vai atingir sua independência financeira rapidinho.",
+        "Wow! With monthly contributions of this size, you will reach financial independence in no time.",
       reaction: 1
     }
   ],
@@ -103,9 +103,9 @@ const feedbacklist = {
       lowerValue: 5645.81,
       upperValue: Number.POSITIVE_INFINITY,
       message:
-        "Você pretende se aposentar com um valor acima do teto atual do INSS (R$ 5645,81), portanto, o restante deverá vir das suas economias ao longo dos anos.",
+        "You intend to retire with an amount above the current ceiling of the INSS ($ 5645.81), so the rest should come from your savings over the years.",
       src:
-        "Fonte: Banco Central do Brasil. Série cidadania financeira. Novembro 2017."
+        "Source: Central Bank of Brazil. Financial citizenship series. November 2017."
     }
   ]
 };

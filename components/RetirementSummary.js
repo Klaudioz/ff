@@ -31,11 +31,11 @@ class RetirementSummary extends Component {
         <h3 className="black-90 f5 normal lh-copy measure-narrow center ml0-ns mb4">
           You will&nbsp;
           <span className="chocolate">
-            R${balance.toLocaleString("pt-BR", { maximumFractionDigits: 0 })}
+            ${balance.toLocaleString("pt-BR", { maximumFractionDigits: 0 })}
           </span>{" "}
           in your account and you'll be able to spend&nbsp;
           <span className="chocolate">
-            R$
+            $
             {this.props.myRetirementIncome.toLocaleString("pt-BR", {
               maximumFractionDigits: 0,
             })}{" "}
@@ -47,7 +47,7 @@ class RetirementSummary extends Component {
           className="bt bw1 b--near-white pt3 f6 normal lh-copy measure center ml0-ns mv3"
         >
           Esse valor não considera a pensão que você receberá do INSS, que pode
-          ir até R$&nbsp;5645 por mês.
+          ir até $&nbsp;5645 por mês.
         </p>
         <div className="dn flex-ns mt4">
           <div className="pt3 pb4 bw1 b--black-10 bg-lightest-blue pa4 br4">
