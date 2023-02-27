@@ -25,7 +25,7 @@ const ShareCall = () => (
       <div className="mr1 pointer grow" onClick={() => handleClick("facebook")}>
         <FacebookShareButton
           quote="Eu já descobri quando vou me aposentar. E você?"
-          url="https://aposentar.me"
+          url="https://fintech.claud.dev"
         >
           <FacebookIcon
             iconBgStyle={{ fill: colors.darkGreen }}
@@ -36,9 +36,9 @@ const ShareCall = () => (
       </div>
       <div className="mr1 pointer grow" onClick={() => handleClick("linkedIn")}>
         <LinkedinShareButton
-          title="Aposentar.me"
+          title="Klaudioz Fintech"
           description="Descubra quando você vai se aposentar."
-          url="https://aposentar.me"
+          url="https://fintech.claud.dev"
         >
           <LinkedinIcon
             iconBgStyle={{ fill: colors.darkGreen }}
@@ -51,7 +51,7 @@ const ShareCall = () => (
         <TwitterShareButton
           title="Descubra quando você vai se aposentar"
           hashtags={["aposentadoria", "independenciaFinanceira"]}
-          url="https://aposentar.me"
+          url="https://fintech.claud.dev"
         >
           <TwitterIcon
             iconBgStyle={{ fill: colors.darkGreen }}
@@ -64,7 +64,7 @@ const ShareCall = () => (
         <WhatsappShareButton
           title="Eu já descobri quando vou me aposentar. E você?"
           separator=" — "
-          url="https://aposentar.me"
+          url="https://fintech.claud.dev"
         >
           <WhatsappIcon
             iconBgStyle={{ fill: colors.darkGreen, padding: "2rem" }}
@@ -81,7 +81,7 @@ const ShareCall = () => (
       <div className="mr1 pointer grow" onClick={() => handleClick("facebook")}>
         <FacebookShareButton
           quote="Eu já descobri quando vou me aposentar. E você?"
-          url="https://aposentar.me"
+          url="https://fintech.claud.dev"
         >
           <FacebookIcon
             iconBgStyle={{ fill: colors.darkGreen }}
@@ -92,9 +92,9 @@ const ShareCall = () => (
       </div>
       <div className="mr1 pointer grow" onClick={() => handleClick("linkedIn")}>
         <LinkedinShareButton
-          title="Aposentar.me"
+          title="Klaudioz Fintech"
           description="Descubra quando você vai se aposentar."
-          url="https://aposentar.me"
+          url="https://fintech.claud.dev"
         >
           <LinkedinIcon
             iconBgStyle={{ fill: colors.darkGreen }}
@@ -107,7 +107,7 @@ const ShareCall = () => (
         <TwitterShareButton
           title="Descubra quando você vai se aposentar"
           hashtags={["aposentadoria", "independenciaFinanceira"]}
-          url="https://aposentar.me"
+          url="https://fintech.claud.dev"
         >
           <TwitterIcon
             iconBgStyle={{ fill: colors.darkGreen }}
@@ -120,7 +120,7 @@ const ShareCall = () => (
         <WhatsappShareButton
           title="Eu já descobri quando vou me aposentar. E você?"
           separator=" — "
-          url="https://aposentar.me"
+          url="https://fintech.claud.dev"
         >
           <WhatsappIcon
             iconBgStyle={{ fill: colors.darkGreen, padding: "2rem" }}

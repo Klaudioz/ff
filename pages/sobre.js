@@ -50,7 +50,7 @@ class Index extends Component {
               </p>
 
               <div className="pt3 pb4 bw1 b--black-10 bg-lightest-blue pa4 br4">
-                <h3 className="b chocolate">Aposentar.me 2.0 está vindo aí!</h3>
+                <h3 className="b chocolate">Aposentar 2.0 está vindo aí!</h3>
                 <p className="mb4">
                   Inscreva-se para ficar sabendo do lançamento.
                 </p>

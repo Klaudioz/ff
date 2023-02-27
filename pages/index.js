@@ -361,7 +361,7 @@ class Index extends Component {
   render() {
     return (
       <div id="pageWrapper" className="center vh-100 flex flex-column">
-        <Header title="Aposentar.me" />
+        <Header title="Klaudioz Fintech" />
         <NavBar
           resetApp={this.resetApp}
           isShowingAnswer={this.state.isShowingAnswer}

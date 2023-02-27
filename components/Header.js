@@ -25,13 +25,13 @@ const Header = props => (
       name="description"
       content="Descubra quando você vai atingir a sua independência financeira"
     />
-    <meta name="og:title" content="Aposentar.me" />
+    <meta name="og:title" content="Klaudioz Fintech" />
     <meta name="og:type" content="website" />
-    <meta name="og:url" content="https://aposentar.me" />
+    <meta name="og:url" content="https://fintech.claud.dev/" />
     <meta name="og:image:type" content="image/png" />
     <meta
       name="og:image"
-      content="https://aposentar.me/static/aposentarme.png"
+      content="https:/fintech.claud.dev/static/aposentarme.png"
     />
     <meta
       name="og:description"
