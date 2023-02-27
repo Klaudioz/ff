@@ -44,34 +44,33 @@ class Index extends Component {
             </h1>
             <div className="flex flex-column pt4">
               <p className="measure lh-copy normal mt0">
-                Construímos este site pois acreditamos que a informação sobre
-                planejamento financeiro pode ser mais divertida, acessível,
-                educativa, e transparente.
+                We built this site because we believe that information about
+                financial planning can be more fun, accessible,
+                educational, and transparent.
               </p>
 
               <div className="pt3 pb4 bw1 b--black-10 bg-lightest-blue pa4 br4">
-                <h3 className="b chocolate">Aposentar 2.0 está vindo aí!</h3>
+                <h3 className="b chocolate">Newsletter</h3>
                 <p className="mb4">
-                  Inscreva-se para ficar sabendo do lançamento.
+                Sign up to hear about the launch.
                 </p>
                 <Signup />
               </div>
-              <h3 className="b mt5 chocolate">Contato</h3>
+              <h3 className="b mt5 chocolate">Contact</h3>
               <p className="measure mt0">
-                Para dúvidas e sugestões, nos envie um email clicando{" "}
+              For questions and suggestions, send us an email by clicking{" "}
                 <a
                   className="link"
                   style={{ color: colors.redPink }}
-                  href="mailto:lucasneumann.fau@gmail.com?subject=[Contato aposentar-me]&cc=gs.toaldo@gmail.com"
+                  href="mailto:klaudioz@gmail.com?subject=[Contact]"
                 >
-                  aqui
+                  here
                 </a>
                 .
               </p>
               <h3 className="b mt4 chocolate">Open source</h3>
               <p className="measure lh-copy">
-                Nosso código é open-source, e está disponível para consulta e
-                colaboração no{" "}
+                Source code available here: {" "}
                 <a
                   className="link"
                   style={{ color: colors.redPink }}
@@ -80,39 +79,17 @@ class Index extends Component {
                 >
                   Github
                 </a>
-                . A reprodução é permitida apenas para fins não-comerciais e com
-                menção ao projeto original.
               </p>
               <div className="mt4 bt bw1 b--near-white w-100 pt4">
                 <p className="measure lh-copy f7">
-                  © 2018-{getYear()}&nbsp;
+                  {getYear()}&nbsp;
                   <a
                     className="link"
                     style={{ color: colors.redPink }}
                     target="_blank"
-                    href="https://github.com/StollToaldo"
+                    href="https://www.claud.dev"
                   >
-                    Guilherme Stoll&nbsp;
-                  </a>
-                  e&nbsp;
-                  <a
-                    className="link"
-                    style={{ color: colors.redPink }}
-                    target="_blank"
-                    href="https://www.lucasn.com"
-                  >
-                    Lucas Neumann
-                  </a>
-                </p>
-                <p className="measure lh-copy f7">
-                  Contribuições de&nbsp;
-                  <a
-                    className="link f7"
-                    style={{ color: colors.redPink }}
-                    target="_blank"
-                    href="https://github.com/rodrigorahal"
-                  >
-                    Rodrigo Rahal
+                    Claudio Canales&nbsp;
                   </a>
                 </p>
               </div>

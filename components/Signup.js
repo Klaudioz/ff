@@ -16,7 +16,7 @@ const Signup = () => (
         <div className="mc-field-group w-100 ">
           <input
             type="email"
-            placeholder="Seu e-mail"
+            placeholder="Your e-mail"
             name="EMAIL"
             className="required email bg-white pa3 black-80 bn br-pill mr2 w-100 tl-l tc"
             id="mce-EMAIL"
